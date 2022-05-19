@@ -1,0 +1,13 @@
+.botao_principal{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabela_users{
+    padding-left: 15%;
+    padding-right: 15%;
+}
