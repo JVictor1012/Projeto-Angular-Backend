@@ -1,0 +1,21 @@
+<router-outlet></router-outlet>
+
+
+<button pButton type="button" label="Voltar" routerLink="/listagem" ></button>
+
+<p> Usuário Selecionado: {{ id }} </p>
+
+<table>
+    <tr>
+        <td>Código:</td>
+        <td>{{usuario?.id}}</td>
+    </tr>
+    <tr>
+        <td>Nome: </td>
+        <td>{{usuario?.first_name}}</td>
+    </tr>
+    <tr>
+        <td>Foto: </td>
+        <td><img [src]="usuario?.avatar" alt=""></td>
+    </tr>
+</table>
